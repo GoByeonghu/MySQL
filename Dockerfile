@@ -10,8 +10,8 @@ ENV MYSQL_DATABASE=mungpy
 ENV MYSQL_USER=root
 ENV MYSQL_PASSWORD=1234
 
-# MySQL의 기본 포트 노출
-EXPOSE 3306
-
 # 컨테이너 시작 시 MySQL을 실행합니다.
 CMD ["mysqld"]
+
+# MySQL의 기본 포트 노출
+EXPOSE 3306
